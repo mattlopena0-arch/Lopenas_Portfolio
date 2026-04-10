@@ -15,7 +15,7 @@ body{
 #header{
     width: 100%;
     height: 100vh;
-    background-image: url("Images/bg1.4.png"), url("Images/bg2.jpg");
+    background-image: url("bg1.4.png"), url("bg2.jpg");
     backdrop-filter: blur(10px);
     background-size: cover;
     background-position: center;
@@ -197,7 +197,7 @@ nav ul li a:hover::after{
 #about .container{
     width: 100%;
     height: 80vh;
-    background-image: linear-gradient(rgba(0,0,0,1) 1%, rgba(255, 227, 166, 0.63), rgba(0,0,0,0), #ffcd7091), url("Images/bg-stephenr.gif");
+    background-image: linear-gradient(rgba(0,0,0,1) 1%, rgba(255, 227, 166, 0.63), rgba(0,0,0,0), #ffcd7091), url("bg-stephenr.gif");
     backdrop-filter: blur(10px);
     background-size: cover;
     background-position: center;
@@ -213,7 +213,7 @@ nav ul li a:hover::after{
 .about-col-1 img{
     width: 100%;
     border-radius: 50px;
-    background: url("Images/bg3.2.png") no-repeat center center;
+    background: url("bg3.2.png") no-repeat center center;
     background-size: auto 100%;
 }
 .about-col-1 {
@@ -507,7 +507,7 @@ input[type="number"]::-webkit-inner-spin-button {
 #uploads{
     width: 100%;
     height: fit-content;
-    background-image: linear-gradient(#ffcd7091 20%, rgba(0,0,0,0), hsla(39, 100%, 59%, 0.329)), url(Images/ryan-haight-uw-spring.gif);
+    background-image: linear-gradient(#ffcd7091 20%, rgba(0,0,0,0), hsla(39, 100%, 59%, 0.329)), url(ryan-haight-uw-spring.gif);
     background-size: cover;
     background-position: center;
 }
