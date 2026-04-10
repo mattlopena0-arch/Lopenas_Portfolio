@@ -1,0 +1,394 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Lopena's Portfolio</title>
+        <link rel="stylesheet" href="portfolio.css">
+    </head>
+    <body>
+        <div id="header">
+            <div class="container">
+                <nav>
+                    <a href="#header"><img src="Images/MattLogo.png" alt="Lopena Portfolio logo" class="logo"></a>
+                    <ul>
+                        <li><a href="#header">Home</a></li>
+                        <li><a href="#about">About</a></li>
+                        <li><a href="#uploads">Upload</a></li>
+                        <!--<li><a href="#laboratory">Laboratory</a></li>
+                        <li><a href="#exam">Exam</a></li>
+                         <li> <a href="projects">Current Projects</a></li> 
+                        <li><a href="#contact">Contact</a></li>-->
+                    </ul>
+                </nav>
+                <div class="header-text">
+                    <p style="color: hsla(0, 0%, 100%, 0.5); font-size: 20px;" class="com-sci"><a href="https://www.mtu.edu/cs/what/" target="_blank" rel="noopener noreferrer">Computer Science Student</a></p>
+                    <h1>Hi, I'm <span class="reveal-text" data-text="Stephene Matt Lope&ntilde;a">Stephene Matt Lope&ntilde;a</span><br> 
+                        This Is My <span class="highlight"><a href="https://www.wix.com/blog/what-is-a-website">Website</a></span> Portfolio</h1>
+                </div>
+            </div>
+        </div>
+    
+    <!-- ---------------------ABOUT SECTION------------------- -->
+    
+        <div id="about">
+            <div class="container">
+                <div class="row">
+                    <div class="about-col-1">
+                        <img src="Images/Stephene-3.png" alt="A image of me">
+                        
+                    </div>
+                    <div class="about-col-2">
+                        <h1 class="sub-title" style="color: #ffafeb;">About Me</h1>
+                        <p style="font-size: 20px;">Hello! I am Matt, a passionate CVSU Computer Science student with 
+                            a strong interest in web development and computer programming. 
+                            I enjoy creating innovative solutions and continuously 
+                            learning codes; currently I am focusing on improving my
+                            skill in HTML, CSS, and JavaScript, Java, and cpp to enhance
+                            my capabilities for the field of computer science. I welcome new knowledge and
+                            enjoy exploring things I am yet to discover, unraveling treasures yet to be discovered.
+                            <br><br>
+                        </p>
+
+                        <!--------------------Tab Title Options-------------------->
+
+                        <div class="tab-title">
+                            <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+                            <p class="tab-links" onclick="opentab('hobbies')">Hobbies</p>
+                            <p class="tab-links" onclick="opentab('student-info')">Student Info</p>
+                            <p class="tab-links" onclick="opentab('education')">Education</p>
+                            <p class="tab-links" onclick="opentab('projects')">Projects</p>
+                            <p class="tab-links" onclick="opentab('contact')">Contact</p>
+
+                        </div>
+
+                        <!-- -------------------TAB CONTENTS------------------- -->
+
+                        <div class="tab-contents active-tab" id="skills">
+                            <ul>
+                                <li><span>UI/UX Design</span><br> Even as a Begginer Programmer, I aim to create visually appealing and user-friendly interfaces.</li>
+                                <li><span>Web Development</span><br> A begginer web developer, currently exploring the field of html, css, and javascript.</li>
+                                <li><span>Programming</span><br> have a mid tier level in cpp, Currently learning Java.</li>
+                            </ul>
+                        </div>
+                        <div class="tab-contents" id="hobbies">
+                            <ul>
+                                <li><span>Video Games</span><br> I love playing video games
+                                because it challanges me to strategize and enjoy the virtual experience 
+                                with my friends and family where we can have fun and create memories together
+                                in the world of fiction.
+                                </li>
+                                <li><span>Cooking</span><br> Even if Im aiming to be a professional programmer,
+                                I too enjoy cooking and trying new recipes, trying different mixture, and experimenting
+                                different mixtures to discover new flavors.</li>
+                                <li><span>Eating</span><br> Eating Is a great wat to spend time with the friends and family
+                                you have, speaking through the flavors made by the cook, and enjoying the moments spent toghether
+                                especialy if the food is superb and delicious.
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="tab-contents" id="student-info">
+                            <ul>
+                                <li><span>Full Name</span><br>Stephene Matt Donaire Lopeña</li>  
+                                <li><span>Student Number</span><br>251101281</li>
+                                <li><span>Course/Year & Section</span><br>Bachelor of Science in Computer Science - 1C</li>
+                                <li><span>Currrent School</span><br>Cavite State University</li>
+                            </ul>
+                        </div>
+                        <div class="tab-contents" id="education">
+                            <ul>
+                                <li>
+                                    <div class="univ-box">    
+                                        <img src="Images/PgesLogo.png" alt="Logo of PGES" class="logo-small" style="align-items: left;">                                
+                                        <div class="overlay">
+                                            <br><br>
+                                            <span>Elementary</span><br>
+                                            <span class="short-text" style="color: #fff; left: 0">PGES</span>
+                                            <a href="https://pges.depeddasma.edu.ph/" target="_blank" style="text-decoration: none;"><span class="full-text" style="color: #77bdff;">Pintong Gubat<br>Elementary School</span></a>
+                                        </div>
+                                    </div>
+                                </li>
+                                <li>
+                                    <div class="univ-box">    
+                                        <img src="Images/P2ihsLogo.png" alt="Logo of P2IHS" class="logo-small" style="align-items: left;">                                
+                                        <div class="overlay">
+                                            <br><br>
+                                            <span>High School</span><br>
+                                            <span class="short-text" style="color: #fff; left: 0;">P2IHS</span>
+                                            <a href="https://pal2ihs.depeddasma.edu.ph/" target="_blank" style="text-decoration: none;"><span class="full-text" style="color: rgb(255, 204, 36);">Paliparan II Integrated<br>High School</span></a>
+                                        </div>
+                                    </div>
+                                </li>
+                                <li>
+                                    <div class="univ-box">    
+                                        <img src="Images/EacLogo.png" alt="Logo of EACC" class="logo-small" style="align-items: left;">                                
+                                        <div class="overlay">
+                                            <br><br>
+                                            <span>Senior-High</span><br>
+                                            <span class="short-text" style="color: #fff; left: 0;">EACC</span>
+                                            <a href="https://eac.edu.ph/" target="_blank" style="text-decoration: none;"><span class="full-text" style="color: #ff4b4b;">Emilio Aguinaldo<br>College Cavite</span></a>
+                                        </div>
+                                    </div>
+                                </li>
+                                <li>
+                                    <div class="univ-box">    
+                                        <img src="Images/CvsuLogo.png" alt="Logo of CVSU" class="logo-small" style="align-items: left;">                              
+                                        <div class="overlay">
+                                            <br><br>
+                                            <span>College</span><br>
+                                            <span class="short-text" style="color: #fff; left: 0; ">CVSU</span>
+                                            <a href="https://cvsu.edu.ph/" target="_blank" style="text-decoration: none;"><span class="full-text" style="color: #4fbe04; width: 100%;">CaVite State<br>University Silang</span></a>
+                                        </div>
+                                    </div>
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="tab-contents" id="projects">
+                            <ul>
+                                <li><span>Portfolio</span><br>Currently, This is my first project in 
+                                    fullstack development. I plan to further improve my online portfolio 
+                                    to allow mobile view support.
+                                </li>
+                                <li><span>The Future</span><br>I will continue learning and improving
+                                    my skills on html, css, and javascript to be able to create my
+                                    upcoming projects with efficiency and creativity.
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="tab-contents" id="contact">
+                            <ul>
+                                <li>
+                                <span>Social Media</span><br> 
+                                    <div class="no-decor">
+                                        <b>Threads: </b><a href="https://www.threads.com/@stephene_11" target="_blank">@stephene_11</a><br>
+                                        <b>Instagram: </b><a href="https://www.instagram.com/stephene_11/" target="_blank">@stephene_11</a><br>
+                                        <b>Facebook: </b><a href="https://www.facebook.com/stephene.matt.lopena/" target="_blank">@Stephene_Matt_Lopena</a><br> 
+                                    </div>    
+                                </li>
+                                <li><span>Email</span><br>Personal email: stephenematt@gmail.com<br>
+                                    Alternative email: mattlopena0@gmail.com<br>
+                                    School Email: stephenemattdlopena.lopena@edu.cvsu.ph
+                                </li>
+                                <li><span>Number</span><br> 
+                                    Dito Tellecomm: 09915599220 <br> 
+                                    Gomo Tellecomm: 09765044682
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+<!------------------------Upload Section------------------------->
+    <!---------------------QUIZ SECTION---------------------> 
+
+        <div id="uploads">
+            <div class="container">
+                <h1 class="sub-title" style="font-size: 70px;">Upload Activities</h1>
+            </div>
+            <div class="container">
+                <h1 class="sub-title">Quiz</h1>
+                <div class="upload-container">
+                    <div class="dropzone" id="quiz-dropzone">
+                            <span class="dropzone-text">Drop file here or click to upload</span>
+                            <input type="file" id="quiz-input" class="dropzone-input" accept="image/*">
+                        </div>
+                        <div class="upload-controls">
+                            <input type="number" id="quiz-num" placeholder="QUIZ #">
+                            <input type="text" id="quiz-score" placeholder="SCORE %">
+                            <button type="button" id="quiz-submit" class="submit-btn">Post Activity</button>
+                        </div>
+                    </div>
+                
+                <div class="post-display" id="quiz-gallery"></div>
+            </div>
+        
+        
+    
+
+    <!---------------------LABORATORY SECTION---------------------> 
+    
+        
+            <div class="container">
+                <h1 class="sub-title">Laboratory</h1>
+                <div class="upload-container">
+                    <div class="dropzone" id="lab-dropzone">
+                        <span class="dropzone-text">Drop file here or click to upload</span>
+                        <input type="file" id="lab-input" class="dropzone-input" accept="image/*">
+                    </div>
+                    <div class="upload-controls">
+                        <input type="number" id="lab-num" placeholder="LAB #">
+                        <input type="text" id="lab-score" placeholder="GRADE %">
+                        <button type="button" id="lab-submit" class="submit-btn">Post Activity</button>
+                    </div>
+                </div>
+                <div class="post-display" id="lab-gallery"></div>
+            </div>
+         
+    <!---------------------EXAM SECTION---------------------> 
+
+        
+            <div class="container">
+                <h1 class="sub-title">Exam</h1>
+                <div class="upload-container">
+                    <div class="dropzone" id="exam-dropzone">
+                        <span class="dropzone-text">Drop file here or click to upload</span>
+                        <input type="file" id="exam-input" class="dropzone-input" accept="image/*">
+                    </div>
+                    <div class="upload-controls">
+                        <input type="text" id="exam-name" placeholder="EXAM NAME (e.g. Midterm)">
+                        <input type="text" id="exam-score" placeholder="SCORE %">
+                        <button type="button" id="exam-submit" class="submit-btn">Post Activity</button>
+                    </div>
+                </div>
+                <div class="post-display" id="exam-gallery"></div>
+            </div>
+        </div>
+        </div> 
+    <!---------------------CONTACT SECTION---------------------> 
+    <!--
+        <div id="contact">
+            <div class="container" >
+                <h1 class="sub-title" style="color: #ffafeb;">Contact</h1>
+                <div class="Contact">Contact</div>
+            </div>
+        </div>  
+    -->
+    <!------------------ Js Script ----------------->
+
+    <div id="imageModal" class="modal">
+        <span class="close">&times;</span>
+        <img class="modal-content" id="img01">
+        <div id="caption"></div>
+    </div>
+
+    <script>
+        var tablinks = document.getElementsByClassName("tab-links");
+        var tabcontents = document.getElementsByClassName("tab-contents");
+
+        function opentab(tabname) {
+            const tablinks = document.getElementsByClassName("tab-links");
+            const tabcontents = document.getElementsByClassName("tab-contents");
+
+            // Remove active classes from all
+            for (let tablink of tablinks) {
+                tablink.classList.remove("active-link");
+            }
+            for (let tabcontent of tabcontents) {
+                tabcontent.classList.remove("active-tab");
+                tabcontent.style.display = "none"; // Ensure it's hidden
+            }
+
+            event.currentTarget.classList.add("active-link");
+
+            const activeContent = document.getElementById(tabname);
+            activeContent.style.display = "block";
+            
+            setTimeout(() => {
+                activeContent.classList.add("active-tab");
+            }, 10);
+        }
+
+        function setupUpload(config) {
+            const dropZone = document.getElementById(config.dropZoneId);
+            const fileInput = document.getElementById(config.inputId);
+            const gallery = document.getElementById(config.galleryId);
+            const submitBtn = document.getElementById(config.submitBtnId); // New Button ID
+
+            let selectedFile = null; // Temporary storage for the file
+
+            dropZone.addEventListener("click", () => fileInput.click());
+
+            // This runs when a file is chosen or dropped
+            const prepareFile = (file) => {
+                if (file && file.type.startsWith("image/")) {
+                    selectedFile = file;
+                    dropZone.style.borderColor = "#ff6bda"; // Change color to show "Ready"
+                    dropZone.querySelector('.dropzone-text').innerText = "File Selected: " + file.name;
+                }
+            };
+
+            fileInput.addEventListener("change", () => prepareFile(fileInput.files[0]));
+            
+            dropZone.addEventListener("drop", (e) => {
+                e.preventDefault();
+                prepareFile(e.dataTransfer.files[0]);
+            });
+
+            // THE MAGIC: Only post when the button is clicked
+            submitBtn.addEventListener("click", () => {
+                const valNum = document.getElementById(config.numId).value;
+                const valScore = document.getElementById(config.scoreId).value;
+
+                if (!selectedFile) {
+                    alert("Please upload an image first!");
+                    return;
+                }
+                if (!valNum || !valScore) {
+                    alert("Please enter the number and score!");
+                    return;
+                }
+
+                const reader = new FileReader();
+                reader.readAsDataURL(selectedFile);
+                reader.onload = () => {
+                    const postItem = document.createElement("div");
+                    postItem.className = "post-item";
+                    postItem.innerHTML = `
+                        <img src="${reader.result}">
+                        <p><strong>${config.label}: ${valNum}</strong><br>Score: ${valScore}</p>
+                    `;
+                    gallery.appendChild(postItem);
+
+                    // Reset everything after posting
+                    selectedFile = null;
+                    document.getElementById(config.numId).value = "";
+                    document.getElementById(config.scoreId).value = "";
+                    dropZone.style.borderColor = "#A474E8";
+                    dropZone.querySelector('.dropzone-text').innerText = "Drop file here or click to upload";
+                };
+            });
+
+            // Standard dragover/leave code...
+            dropZone.addEventListener("dragover", (e) => { e.preventDefault(); dropZone.classList.add("dropzone--over"); });
+            dropZone.addEventListener("dragleave", () => dropZone.classList.remove("dropzone--over"));
+        }
+
+    setupUpload({ dropZoneId: 'quiz-dropzone', inputId: 'quiz-input', galleryId: 'quiz-gallery', numId: 'quiz-num', scoreId: 'quiz-score', submitBtnId: 'quiz-submit', label: 'Quiz' });
+    setupUpload({ dropZoneId: 'lab-dropzone', inputId: 'lab-input', galleryId: 'lab-gallery', numId: 'lab-num', scoreId: 'lab-score', submitBtnId: 'lab-submit', label: 'Lab' });
+    setupUpload({ dropZoneId: 'exam-dropzone', inputId: 'exam-input', galleryId: 'exam-gallery', numId: 'exam-name', scoreId: 'exam-score', submitBtnId: 'exam-submit', label: 'Exam' });
+    
+
+    // MODAL CODE (for image preview)
+
+    const modal = document.getElementById("imageModal");
+    const modalImg = document.getElementById("img01");
+    const span = document.getElementsByClassName("close")[0];
+
+    // Use Event Delegation to handle images that are added LATER (via Submit button)
+    document.addEventListener('click', function (e) {
+        if (e.target.tagName === 'IMG' && e.target.closest('.post-item')) {
+            modal.style.display = "block";
+            modalImg.src = e.target.src;
+        }
+    });
+
+    // Close the modal when clicking (X)
+    span.onclick = function() { 
+    modal.style.display = "none";
+    }
+
+    // Close the modal when clicking anywhere outside the image
+    window.onclick = function(event) {
+    if (event.target == modal) {
+        modal.style.display = "none";
+    }
+    }
+    </script>
+
+
+    </body>
+</html>
+    
+
+
+
+    <!-- Css Style-->
